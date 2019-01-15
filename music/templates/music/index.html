@@ -1,0 +1,11 @@
+{% if albums %}
+    <h4><ol>
+            {% for album in albums %}
+            <li>
+                <h4><a href="{% url 'music:details' album.id%}"> {{album.album_title}} - {{album.artist}}</a></h4>
+            </li>
+            {%endfor%}
+        </ol></h4>
+{% else %}
+<h2>Sorry, you don't have any albums yet.</h2>
+{%endif%}
