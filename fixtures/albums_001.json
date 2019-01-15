@@ -1,0 +1,114 @@
+[
+  {
+    "model": "music.album",
+    "pk": 1,
+    "fields": {
+      "artist": "Ed Sheeran",
+      "album_title": "Divide",
+      "genre": "RnB",
+      "state": 1,
+      "album_logo": null,
+      "key": "dee6d6ae-2542-4a92-9ecd-76ae9faf6220",
+      "date_modified": "2018-05-28T18:17:26.616Z",
+      "date_created": "2018-05-28T18:17:26.616Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 2,
+    "fields": {
+      "artist": "Tylor Swift",
+      "album_title": "Red",
+      "genre": "Country",
+      "state": 1,
+      "album_logo": null,
+      "key": "aa73519c-1163-4b78-b794-748e87d0e0ad",
+      "date_modified": "2018-05-28T18:18:28.629Z",
+      "date_created": "2018-05-28T18:18:28.629Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 3,
+    "fields": {
+      "artist": "Ed Sheeran",
+      "album_title": "Multiply",
+      "genre": "RnB",
+      "state": 1,
+      "album_logo": null,
+      "key": "b2b0ae57-6133-4a4f-a3e0-ba91b0fb2e45",
+      "date_modified": "2018-05-28T18:18:52.081Z",
+      "date_created": "2018-05-28T18:18:52.081Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 4,
+    "fields": {
+      "artist": "Ed Sheeran",
+      "album_title": "Hello",
+      "genre": "RnB",
+      "state": 1,
+      "album_logo": null,
+      "key": "20795301-3244-4956-854c-02770d152c35",
+      "date_modified": "2018-06-06T14:10:56.942Z",
+      "date_created": "2018-06-06T14:10:56.942Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 5,
+    "fields": {
+      "artist": "Kety Parry",
+      "album_title": "Imagine",
+      "genre": "Pop",
+      "state": 1,
+      "album_logo": null,
+      "key": "93c89294-b624-4d60-bdfe-ac9163ee20bd",
+      "date_modified": "2018-06-06T14:10:57.046Z",
+      "date_created": "2018-06-06T14:10:57.046Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 6,
+    "fields": {
+      "artist": "Modanna",
+      "album_title": "Fans",
+      "genre": "RnB",
+      "state": 1,
+      "album_logo": null,
+      "key": "72f4cc64-fef1-4bbf-a19e-0878cf531437",
+      "date_modified": "2018-06-06T14:10:57.157Z",
+      "date_created": "2018-06-06T14:10:57.157Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 7,
+    "fields": {
+      "artist": "Nicki Jam",
+      "album_title": "Wazzup",
+      "genre": "Hip Hop",
+      "state": 1,
+      "album_logo": null,
+      "key": "45b8b105-2c0f-44bf-855e-053604d5205e",
+      "date_modified": "2018-06-06T14:10:57.269Z",
+      "date_created": "2018-06-06T14:10:57.269Z"
+    }
+  },
+  {
+    "model": "music.album",
+    "pk": 8,
+    "fields": {
+      "artist": "Linkin Lake",
+      "album_title": "Hey Y'all",
+      "genre": "RnB",
+      "state": 1,
+      "album_logo": null,
+      "key": "1678abc7-4fab-45c3-a27b-b2f1fca2d3c4",
+      "date_modified": "2018-11-24T08:03:00.748Z",
+      "date_created": "2018-11-24T08:03:00.748Z"
+    }
+  }
+]

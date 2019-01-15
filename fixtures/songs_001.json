@@ -1,0 +1,30 @@
+[
+  {
+    "model": "music.song",
+    "pk": 1,
+    "fields": {
+      "state": 1,
+      "album": 1,
+      "song_title": "Castle on the Hill",
+      "file_type": ".mp3",
+      "is_favorite": true,
+      "key": "02d60232-bd59-4b6c-8573-68d725cd4b88",
+      "date_modified": "2018-07-11T08:26:13.699Z",
+      "date_created": "2018-07-11T08:26:13.700Z"
+    }
+  },
+  {
+    "model": "music.song",
+    "pk": 2,
+    "fields": {
+      "state": 1,
+      "album": 2,
+      "song_title": "Back to December",
+      "file_type": ".mp3",
+      "is_favorite": false,
+      "key": "53821bcc-14a3-48c2-8bd8-854dba28f528",
+      "date_modified": "2018-11-24T08:12:23.607Z",
+      "date_created": "2018-11-24T08:12:23.607Z"
+    }
+  }
+]

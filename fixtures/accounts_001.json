@@ -1,0 +1,42 @@
+[
+  {
+    "model": "account.account",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "first_name": "Ashley",
+      "last_name": "Whitaker",
+      "phone_number": "25471896264789",
+      "email": "ajbjwd@mdnsjd.jfs",
+      "date_of_birth": "2000-01-01",
+      "gender": "Female",
+      "pin_hash": "pbkdf2_sha256$36000$L4jnomYzZ1uq$2hvnCmwersuPq+MRNeLVOyIruUnsIAXggu4CGyRgJ5Y=",
+      "location": "Nairobi",
+      "state": 1,
+      "failed_login_attempts": 0,
+      "key": "6db62510-549c-48a6-9775-184b14673151",
+      "date_modified": "2018-11-24T07:30:28.578Z",
+      "date_created": "2018-07-11T08:23:17.520Z"
+    }
+  },
+  {
+    "model": "account.account",
+    "pk": 2,
+    "fields": {
+      "user": 3,
+      "first_name": "Kevin",
+      "last_name": "Macharia",
+      "phone_number": "254717072416",
+      "email": "kelvinmacharia078@gmail.com",
+      "date_of_birth": "2000-01-01",
+      "gender": "Male",
+      "pin_hash": "pbkdf2_sha256$36000$UExAdrF3fJPY$GOhj6XeLUm1FLuSwmxRJ0RIfXfY7y4dmSXSIeuiVJa4=",
+      "location": "Nairobi",
+      "state": 1,
+      "failed_login_attempts": 0,
+      "key": "45f69188-c84c-47f6-ab38-fafbeaa02fd9",
+      "date_modified": "2018-07-11T08:24:07.508Z",
+      "date_created": "2018-07-11T08:24:07.508Z"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "model": "account.state",
+    "pk": 1,
+    "fields": {
+      "name": "Active",
+      "description": "State active",
+      "key": "c1c0a1f4-5f59-4ab7-af3a-0589be1abc40",
+      "date_modified": "2018-05-28T18:13:54.931Z",
+      "date_created": "2018-05-28T18:13:54.931Z"
+    }
+  },
+  {
+    "model": "account.state",
+    "pk": 2,
+    "fields": {
+      "name": "Inactive",
+      "description": "Inactive state",
+      "key": "61583831-027f-49e8-a6f4-232f1e6ea0fd",
+      "date_modified": "2018-05-28T18:14:14.309Z",
+      "date_created": "2018-05-28T18:14:14.309Z"
+    }
+  }
+]
