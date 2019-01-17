@@ -1,9 +1,5 @@
-django
-pyodbc
-pycrypto
-gunicorn
-django-heroku
-pytest
-pytest-django
-pytest-cov
-mixer
+pytest==3.4.0
+mixer==6.0.1
+xlrd==1.1.0
+Django==1.11.10
+python_dateutil==2.7.5
