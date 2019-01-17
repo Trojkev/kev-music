@@ -1,1 +1,1 @@
-web: python manage.py runserver 0.0.0.0:8000
+web: gunicorn kev_music.wsgi --log-file -
