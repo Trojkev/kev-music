@@ -1,0 +1,9 @@
+django
+pyodbc
+pycrypto
+gunicorn
+django-heroku
+pytest
+pytest-django
+pytest-cov
+mixer
