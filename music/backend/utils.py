@@ -142,3 +142,16 @@ def generate_token():
 	except Exception as e:
 		lgr.exception('generate_token Exception: %s', e)
 	return None
+
+
+def generate_pin(length = 4):
+	"""
+	Generates a string of digits of the provided length defaulting to 4
+	@return: a string of randomly generated digits 
+	"""
+	try:
+		from random import randint
+		return ''.join(str(x) for x in range(1000, 9999))
+	except Exception as e:
+		lgr.exception('generate_pin exception: %s', e)
+	return None
