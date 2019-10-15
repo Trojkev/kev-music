@@ -19,7 +19,7 @@ class State(models.Model):
 
 
 class Account(models.Model):
-	user = models.OneToOneField(User)
+	user = models.OneToOneField(User, on_delete=models.CASCADE)
 	first_name = models.CharField(max_length = 30)
 	last_name = models.CharField(max_length = 30, null = True, blank = True)
 	phone_number = models.CharField(max_length = 15, unique = True)
@@ -28,7 +28,7 @@ class Account(models.Model):
 	gender = models.CharField(max_length = 7)
 	pin_hash = models.CharField(max_length = 255, default = '')
 	location = models.CharField(max_length = 50, null = True, blank = True)
-	state = models.ForeignKey(State)
+	state = models.ForeignKey(State, on_delete=models.CASCADE)
 	failed_login_attempts = models.IntegerField(blank = True, null = True, default = 0)
 	key = models.CharField(max_length = 255, default = uuid.uuid4, editable = False)
 	date_modified = models.DateTimeField(auto_now = True)
