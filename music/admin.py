@@ -5,7 +5,7 @@ from .models import Album, Song
 
 class AlbumAdmin(admin.ModelAdmin):
     list_display = ('artist', 'album_title', 'genre', 'album_logo', 'state', 'date_created')
-    search_fields = ('artist', 'album_title', 'state__name')
+    search_fields = ('artist__name', 'album_title', 'state__name')
 admin.site.register(Album, AlbumAdmin)
 
 

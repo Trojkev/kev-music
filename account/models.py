@@ -14,7 +14,7 @@ class State(models.Model):
 	date_modified = models.DateTimeField(auto_now = True)
 	date_created = models.DateTimeField(auto_now_add = True)
 	
-	def __unicode__(self):
+	def __str__(self):
 		return '%s' % self.name
 
 
@@ -34,5 +34,17 @@ class Account(models.Model):
 	date_modified = models.DateTimeField(auto_now = True)
 	date_created = models.DateTimeField(auto_now_add = True)
 	
-	def __unicode__(self):
+	def __str__(self):
 		return '%s - %s' % (self.first_name, self.phone_number)
+
+
+class Artist(models.Model):
+    name = models.CharField(max_length = 50)
+    alias = models.CharField(max_length = 50)
+    state = models.ForeignKey(State, on_delete=models.CASCADE)
+    key = models.CharField(max_length = 255, default = uuid.uuid4, editable = False)
+    date_modified = models.DateTimeField(auto_now = True)
+    date_created = models.DateTimeField(auto_now_add = True)
+
+    def __str__(self):
+        return self.name

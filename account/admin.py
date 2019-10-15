@@ -2,7 +2,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from account.models import State, Account
+from account.models import State, Account, Artist
 
 
 class StateAdmin(admin.ModelAdmin):
@@ -21,3 +21,9 @@ class AccountAdmin(admin.ModelAdmin):
 		'date_of_birth', 'gender', 'email']
 
 admin.site.register(Account, AccountAdmin)
+
+
+@admin.register(Artist)
+class ArtistAdmin(admin.ModelAdmin):
+	list_display = ('name', 'alias', 'state', 'date_modified', 'date_created')
+	search_fields = ('name', 'alias', 'state__name')
