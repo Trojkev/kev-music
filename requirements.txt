@@ -1,4 +1,4 @@
-Django==1.11.10
+Django==1.11.23
 gunicorn
 django-heroku
 pytest==3.4.0
